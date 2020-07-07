@@ -1,22 +1,4 @@
-vmaig.com 网站源码
-=================
-[![ENV](https://img.shields.io/badge/python-2.7%2C3.4-blue.svg)](https://github.com/billvsme/vmaig_blog)
-[![LICENSE](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/billvsme/vmaig_blog/blob/master/LICENSE)
-[![Travis](https://img.shields.io/travis/billvsme/vmaig_blog.svg)](https://travis-ci.org/billvsme/vmaig_blog)
-[![Docker Stars](https://img.shields.io/docker/stars/billvsme/vmaig_blog.svg)](https://hub.docker.com/r/billvsme/vmaig_blog/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/billvsme/vmaig_blog.svg)](https://hub.docker.com/r/billvsme/vmaig_blog/)
-# 有问题欢迎加qq群
-vmaig qq群: 458788510  
-我的qq: 994171686  
 
-[使用Docker部署vmaig_blog](http://vmaig.com/article/deplay_vmaig_blog.html)
-
-# 更新日志
-2015/5/15 从django1.6 升级到 django1.8 (还保留django1.6分支)  
-2015/6/21 添加[xadmin分支](https://github.com/billvsme/vmaig_blog/tree/xadmin),xadmin分支中使用xadmin作为后台管理(使用 django 1.8),如果你想后台比较漂亮可以切换到xadmin分支(注意你不需要pip install django-xadmin 但是需要安装django-crispy-forms跟django-reversion详细步骤见xadmin分支中的README)  
-2015/7/5 对xadmin分支中的错误进行了比较大的修改  
-2016/3/17 添加评论回复  
-2016/3/22 添加Dockerfile，使用Docker部署本博客  
 
 # 概述
 vmaig\_blog 是一个基于  **Django1.8**  跟  **Bootstrap3**  开发的 **博客系统** ，实现了一个博客完整的功能。https://vmaig.com 就是基于vmaig\_blog 搭建的。
